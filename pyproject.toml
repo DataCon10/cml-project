@@ -7,7 +7,12 @@ authors = [
     { name = "datacon10", email = "conor.kelly@bse.eu" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "marimo>=0.25.2",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 cml-project = "cml_project:main"
